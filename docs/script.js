@@ -110,6 +110,7 @@ function init() {
         console.log("Init: " + (endTime - startTime) + " mSec");
       }
     }
+    document.getElementById("result").innerHTML = "Total Psukim: " + "";
     xhr.send();
 }
 
